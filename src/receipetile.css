@@ -1,0 +1,44 @@
+.recipe_Tile_name{
+    font-size: 20px;
+    max-width: 350px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.recipe_Tile_image{
+    height:350px;
+    width:350px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #000000;
+    background-position: center;
+}
+.receipeTile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width:350px;
+    height:400px;
+    text-align: center;
+    margin:10px 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1035px){
+    .receipeTile{
+        flex: 1;
+        height: 330px;
+    }
+    .recipe_Tile_image{
+        height:250px;
+        width:250px;
+    }
+    .recipe_Tile_name{
+        font-size: 20px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+}
